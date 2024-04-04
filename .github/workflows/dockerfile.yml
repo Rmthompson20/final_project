@@ -12,14 +12,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: rubymthompson
+    - name: rmthompson@willamette.edu
       uses: docker/login-action@v1
       with:
-        username: ${{ secrets.rubymthompson }}
-        password: ${{ secrets.Rubytillamook2020! }}
+        username: ${{ secrets.rmthompson@willamette.edu }}
+        password: ${{ secrets.Willamettetennis2024! }}
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ secrets.rubymthompson }}/jrembold/web2db:latest
+        tags: ${{ secrets.rmthompson@willamette.edu }}/jrembold/web2db:latest

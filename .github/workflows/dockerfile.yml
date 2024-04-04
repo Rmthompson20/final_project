@@ -15,7 +15,7 @@ jobs:
     - name: rubymthompson
       uses: docker/login-action@v1
       with:
-        username: ${{ secrets.rmthompson@willamette.edu }}
+        username: ${{ secrets.rubymthompson }}
         password: ${{ secrets.Rubytillamook2020! }}
 
     - name: Build and push Docker image

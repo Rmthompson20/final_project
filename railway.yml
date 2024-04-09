@@ -1,0 +1,12 @@
+version: 2
+services:
+  web:
+    image: fetch-weather-app
+    build:
+      context: .
+      dockerfile: /Users/rubythompson/Documents/DATAFINAL503/Dockerfile
+    envs:
+      - key: PORT
+        value: "80"
+    port: 80
+
